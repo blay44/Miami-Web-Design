@@ -1,0 +1,177 @@
+<!Doctype html>
+<html>
+	<head>
+	 <meta charset="UTF-8">
+	 <title>Resume - Brandon Lay</title>
+ 	</head>
+
+	<body>
+
+	 <header>
+
+	  <h1>Brandon Lay</h1>
+	  <p>59 Port of Spain Rd, Coronado, CA 92118  |  (619) 302-4976  |  b.lay@umiami.edu</p>
+	  <!-- It wouldn't be awful if you put this in an address tag (since 
+	       you asked :) ). Don't worry about how it looks. It is an
+	       address, right? That's what is important. You can always
+	       change the look using CSS.
+
+	       Also, something to consider with the pipes separating each 
+	       part of your contact information. What if you wanted to change
+	       those in the future?
+
+	       There are ways in CSS to change the content before and after 
+	       tagged content. So, for instance, if you enclosed, say, each
+	       piece of information in a span, you could change the pipe to
+	       something else.
+
+	       This is fine. Just something for you to think about. :)
+
+	       Some people have linked their address. The traditional 
+	       mailto: could lead to your email being harvested by spammers
+	       if you want to link your email, I am allowing students 
+	       to use an email encoder that protects their addresses.
+
+	       http://hivelogic.com/enkoder/
+	  -->
+
+	  <a href="#work">Work Experience</a>
+	  <br> 
+	  <a href="#education">Education</a>
+	  <br>
+	  <a href="#skills">Skills, Activities &amp; Awards</a>
+	  <br>
+
+	  <!-- A couple thoughts here.
+
+	       1. You want to wrap your navigation in a nav tag.
+
+	       2. Rather than list each item with br tags, why not use a
+	       list? Again, if it's because you don't like the way it 
+	       looks, you can change that with styling.
+
+	  -->
+
+	 </header>
+
+	  <section id="work">
+
+	  <!-- Another student had this issue and it actually has me thinking
+	       of tinkering in some old browsers to see how it responds.
+
+	       HTML5 does ask for id as opposed to name. So what you have
+	       here is good, as long as the link works.
+
+	       This is one of those gray areas that you debate whether its
+	       better to have <a name="work"></a> or just add the id to an
+	       element.
+
+	       As I told another student, I really have to dig for an answer
+	       on this, but good thinking outside of the box.
+    -->
+
+	   <h2><u>Work Experience</u></h2>
+
+	   <!-- No need to use 'u'. Actually, I think it has been deprecated
+	        from HTML5. You only need h2.
+
+	        If you wanted to add a text decoration like an underline, you
+	        will be able to do that with CSS. But using an underline for 
+	        something that is not a link is generally a bad idea since
+	        users associate underlines with links. You might have a person
+	        click on your headline and wonder what's broken.
+
+	        I saw this elsewhere, so you'll want to make sure its removed
+	        in other parts of the document, too.
+
+	   -->
+
+	  	<article>
+
+	  	 <h3>PricewaterhouseCoopers</h3>
+	  	 <h4><em>Valuations Summer Analyst</em></h4>
+
+	  	  <ul>
+	  	 	 <li>Provided valuation advisory services in <abbr title="Mergers and Acquisitions">M&amp;A</abbr>, purchase price allocation and intangible asset valuation</li>
+	  	 	 <!-- abbr - - nice! :) -->
+	  	 	 <li>Assisted with extensive Excel modeling on assets proposed for acquisition and cost of capital evaluation</li>
+	  	 	 <li>Conducted company research and data analysis using Capital IQ and the Bloomberg Terminal</li>
+	  	 	 <li>Cross-referenced models and tested for potential impairment of Fair Value valuations</li>
+	  	 	 <li>Participated in partner-client meetings and due diligence interviews</li>
+	  	  </ul>
+
+	  	</article>
+
+	  	<article>
+
+	  	 <h3>American International Group</h3>
+	  	 <h4><em>Corporate Finance &amp; Accounting Intern</em></h4>
+
+	  	  <ul>
+	  	  	 <li>Underwent a rotational program with the finance and accounting department</li>
+	  	  	 <li>Prepared report on the 2011 Quarterly Estimate and Analysis for <abbr title="Asia Pacific">APAC</abbr> region</li>
+	  	  	 <li>Aided in the fundamental aspects of financial record keeping, including recording financial transactions, arranging journal entries and reconciling bank statements</li>
+	  	  </ul>
+
+	  	</article>
+
+	  </section>
+
+
+
+	  <section id="education">
+
+	   <h2><u>Education</u></h2>
+
+	  	<article>
+
+	  	 <h3>University of Miami</h3>
+	  	 <h4><em>Bachelor of Business Administration: Economics, Finance</em></h4>
+
+	  	  <ul>
+	  	  	 <li>Economics Major GPA: 4.0, Finance Major GPA: 3.78</li>
+	  	  	 <li>Cumulative GPA: 3.70</li>
+	  	  	 <li>Provost's Honor Roll, School of Business Dean's List</li>
+	  	  	 <li>Will graduate with Cum Laude Honors</li>
+	  	  </ul>
+
+	  	</article>
+
+	  	<article>
+
+	  	 <h3>Hogeschool Van Amsterdam - School of Economics</h3>
+	  	 <h4><em>Semester Abroad</em></h4>
+
+	  	 <ul>
+	  	 	 <li>Enrolled in international economics and finance courses to gain further insight on the European perspective of the recent economic crisis</li>
+	  	 </ul>
+
+	  	</article>
+
+	  </section>
+
+
+
+	  <section id="skills">
+
+	   <h2><u>Skills, Activities &amp; Awards</u></h2>
+
+	    <article>
+	  	
+	  	 <ul>
+	  	 	 <li>Proficient with Bloomberg Terminal and S&amp;P Capital IQ</li>
+	  	 	 <li>Very skilled with Microsoft Excel, Microsoft Word, Adobe Photoshop and Illustrator</li>
+	  	 	 <li>Canes Investing Association</li>
+	  	 	 <li><a href="http://www.facebook.com/FloridaAlpha" title="SAE-FLorida Alpha Chapter Facebook">Sigma Alpha Epsilon Fraternity</a></li>
+	  	 	 <li>Nobles Awards – Singapore</li>
+	  	 	 <li>Coaches Award for Rugby (Captain) – Singapore</li>
+	  	 </ul>
+
+	    </article>
+
+	  </section>
+
+
+	</body>
+
+</html>

@@ -1,0 +1,62 @@
+@media screen and (max-width: 320px){
+
+#printme{
+	display: none;
+}
+
+#outer-container{
+	height:30px;
+}
+
+#body{
+	width
+}
+
+
+nav ul{
+	margin-top: 10px;
+	text-align: left;
+	padding-left:0px;
+}
+
+nav ul li a{
+	padding: 1em;
+}
+
+nav ul li:after {
+  content: " | ";
+} 
+
+h1{
+	font-size: 40px;
+}
+
+#body{
+	width:320px;
+}
+
+#hd{
+	width:100%;
+}
+
+#contact-info{
+	display:none;
+}
+
+h4{
+	width: 100%;
+}
+
+.first-block{
+	display:none;
+}
+
+.date{
+	display:none;
+}
+
+.second-block{
+	width: 99%;
+}
+
+}

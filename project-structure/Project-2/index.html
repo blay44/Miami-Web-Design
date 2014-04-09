@@ -3,7 +3,7 @@
 	<head>
 	 	<meta charset="UTF-8">
 	 	<link rel="stylesheet" href="css/style.css" />
-	 	<link rel="stylesheet" media="screen and (max-width: 320px)" href="css/screen.css" />
+	 	<link rel="stylesheet" media="only screen and (max-width: 320px)" href="css/screen.css" />
     	<link rel="stylesheet" media="print" href="css/print.css" />
 	 	<link href='http://fonts.googleapis.com/css?family=Gilda+Display|Rokkitt' rel='stylesheet' type='text/css'>
 	 	<title>Resume - Brandon Lay</title>
@@ -17,7 +17,7 @@
 
 	 				<nav>
 					   <ul>
-					    <li><a href="#work">Experience</a></li>
+					    <li id="first-li"><a href="#work">Experience</a></li>
 					    <li><a href="#edu">Education</a></li>
 					    <li><a href="#tech">Technical</a></li>
 					   </ul>
@@ -27,7 +27,7 @@
 
  			<div id="inner-container">
 
- 				<div id="body">
+ 				<div id="body-container">
 
 	 				<div id="header">
 
@@ -39,7 +39,7 @@
 	 					<div id="contact-info">
 	 					 	<a id="printme" href="javascript:window.print()">Click To Print</a>
 						 	<p>(619) 302-4976</p>
-						 	<p>b.lay@umiami.edu</p>
+						 	<a id="email" href="mailto:blay44@gmail.com" target="_top">Send A Message</a>
 	 					</div>	
 	 				</div>
 
@@ -55,7 +55,7 @@
 
 	 						<div class="second-block">
 		 						<p class="enlarge">
-		 							Valuation advisory analyst with a passion for asset managment, capital management and private equity.
+		 							Valuation advisory analyst with a passion for asset management, capital management and private equity.
 		 						</p>
 	 						</div>
 

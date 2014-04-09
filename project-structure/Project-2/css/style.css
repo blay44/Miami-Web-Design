@@ -1,14 +1,12 @@
 
 #container{
-	margin-bottom:30px;
-	border-bottom: solid #666;
+	margin-bottom:0px;
 }
 
 #inner-container{
 	margin-top: 0px;
 	background-color: #f5f5f5;
 	border-top: solid #666;
-
 }
 
 h1{
@@ -23,6 +21,7 @@ h1{
 
 h2{ 
 	margin-top: 0px;
+	margin-bottom: 0px;
 	padding-top: 0px;
 	font-weight: lighter;
 	font-family: 'Rokkitt', serif;
@@ -72,9 +71,21 @@ p{
 	font-size: 20px;
 }
 
+#email{
+	font-family: 'Rokkitt', serif;
+	font-size: 16px;
+	color: black;
+	margin-top: 10px;
+	float: right;
+}
+
 #hd{
 	float: left;
 	width: 60%;
+}
+
+#h4{
+	width:50%;
 }
 
 #contact-info{
@@ -89,7 +100,7 @@ p{
 	font-size: 16px;
 }
 
-#body{
+#body-container{
 	margin: 0em auto;
 	max-width: 740px;
 	min-width:645px;
@@ -109,7 +120,7 @@ p{
 	padding: 2px 12px 2px 12px; 
 	text-decoration: none; 
 	border: 2px solid black;
-	margin-bottom: 10px;
+	margin-bottom: 13px;
 }
 a#printme:hover {
 	background: #222;
@@ -196,7 +207,7 @@ nav ul li a{
 	font-family: 'Rokkitt', serif;
 	color: black;
 	text-decoration: none;
-	padding: 1em 2em;
+	padding: 1.8em;
 }
 
 nav ul li a:hover{
@@ -204,4 +215,17 @@ nav ul li a:hover{
 	text-decoration: underline;
 }
 
+#first-li:before{
+	content: " | ";
+} 
+
+#contact-info{
+	margin-top:5px;
+}
+
+body{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
 

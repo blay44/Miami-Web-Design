@@ -39,8 +39,7 @@ nav ul li:after {
 nav ul li a:hover {
   background: #666;
   color: #fff;
-  /* We can add a simple effect to show our user they've hit their 
-     target. */
+
 }
 
 h1{

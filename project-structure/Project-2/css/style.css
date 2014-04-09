@@ -46,6 +46,7 @@ h4{
 	font-family: 'Rokkitt', serif;
 	font-size: 21px;
 
+
 }
 
 h5{
@@ -77,6 +78,7 @@ p{
 	color: black;
 	margin-top: 10px;
 	float: right;
+	text-decoration: none;
 }
 
 #hd{
@@ -221,6 +223,11 @@ nav ul li a:hover{
 
 #contact-info{
 	margin-top:5px;
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+	color: black;
 }
 
 body{
